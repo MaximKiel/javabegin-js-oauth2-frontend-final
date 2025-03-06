@@ -13,7 +13,7 @@ const RESPONSE_TYPE_CODE = "code"; // для получения authorization co
 
 // !! в каждой версии KeyCloak могут меняться URI - поэтому нужно сверяться с документацией
 const KEYCLOAK_URI = "https://localhost:8443/realms/todoapp-realm/protocol/openid-connect"; // общий URI KeyCloak
-const CLIENT_ROOT_URL = "https://localhost:8080"; // куда auth server будет отправлять auth code
+const CLIENT_ROOT_URL = "https://localhost:8081"; // куда auth server будет отправлять auth code
 
 const BFF_URI = "https://localhost:8902/bff"
 
